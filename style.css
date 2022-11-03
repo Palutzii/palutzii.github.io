@@ -26,23 +26,55 @@ h4 {
 
 body {
   padding: 1rem 2rem;
+  height: 100%;
+  background: linear-gradient(90deg, #000 50%, #fff 50%);
+  color: #fff;
 }
 
-header {
-  padding: 1rem 2rem;
+#background-div {
+  width: 50%;
+}
+
+#header-title {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+#header-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 75%;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid white;
 }
 
 main {
   padding: 1rem 2rem;
 }
 
+#small-project-section {
+  width: 50%;
+}
+
+#project-links {
+  margin-top: 1rem;
+}
+
 nav ul {
+  margin-top: 1rem;
   list-style-type: none;
+}
+
+nav ul li {
+  padding-bottom: 1rem;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 nav ul li a:hover {
   color: rgb(201, 162, 162);
