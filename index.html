@@ -4,36 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Palutzii's homepage</title>
+    <title>Palutzii</title>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
   </head>
   <body>
-    <div id="background-div"></div>
-    <header id="header-title">
-      <h1>Palutzii's kind of interesting homepage</h1>
+    <header class="header">
+      <div class="header-logo">
+        <h1>Palutzii</h1>
+      </div>
+
+      <div class="header-inside">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="index.html" class="nav-list-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="about.html" class="nav-list-link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <section id="small-project-section">
-        <nav id="project-links">
+    <main class="main">
+      <article class="section dark">
+        <div class="bubble light"></div>
+        <nav>
           <h2>Small projects</h2>
-          <ul>
-            <li>
+          <ul class="section-list">
+            <li class="section-list-item">
               <a
                 href="https://palutzii.github.io/Ankademin-Quiz/"
                 title="Link to quiz page"
                 >Ankademin-Quiz</a
               >
             </li>
-            <li>
+            <li class="section-list-item">
               <a
                 href="https://palutzii.github.io/First-HTML-excercise/index.html"
                 title="Link to first HTML excercise"
                 >First HTML excercise</a
               >
             </li>
-            <li>
+            <li class="section-list-item">
               <a
                 href="https://palutzii.github.io/HTML-recept-excercise/receipts.html"
                 title="Link to recept excercise"
@@ -42,7 +57,39 @@
             </li>
           </ul>
         </nav>
-      </section>
+      </article>
+
+      <article class="section light">
+        <div class="bubble dark"></div>
+        <nav>
+          <h2>Big projects</h2>
+          TBA
+          <!--
+          <ul class="section-list">
+            <li class="section-list-item">
+              <a
+                href="https://palutzii.github.io/Ankademin-Quiz/"
+                title="Link to quiz page"
+                >Ankademin-Quiz</a
+              >
+            </li>
+            <li class="section-list-item">
+              <a
+                href="https://palutzii.github.io/First-HTML-excercise/index.html"
+                title="Link to first HTML excercise"
+                >First HTML excercise</a
+              >
+            </li>
+            <li class="section-list-item">
+              <a
+                href="https://palutzii.github.io/HTML-recept-excercise/receipts.html"
+                title="Link to recept excercise"
+                >HTML recept excercise</a
+              >
+            </li>
+          </ul>-->
+        </nav>
+      </article>
     </main>
   </body>
 </html>
