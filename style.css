@@ -75,6 +75,8 @@ html {
 }
 
 .nav-list-item:first-child::after {
+  left: auto;
+  right: 0;
   background-color: #fff;
 }
 
