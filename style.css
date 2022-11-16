@@ -217,6 +217,12 @@ html {
   right: 0;
 }
 
-.nav-section h2 {
-  margin-top: 3rem;
+.section.dark .nav-section h2:last-of-type {
+  margin-top: 2rem;
+}
+
+h1:hover {
+  letter-spacing: 1rem;
+  transition: 500ms ease-in-out;
+  cursor: default;
 }
